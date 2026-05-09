@@ -1,0 +1,11 @@
+# Changelog
+- Created vibe.py, jules-epiphanies.md, changelog.md
+- Implemented model selection, locking, and loading using transformers
+- Implemented InfiniteMemoryWeightsDB with Hilbert Hotel f(n)=2n shifts and Cantor pairing function k(a,b).
+- Implemented OrganoidLoRALayer structural skeleton using the Brain class from brain_large.py.
+- Implemented Organoid Layer physics adaptation by running the FitzHugh-Nagumo engine and extracting the Hebbian synaptic weight matrices (`syn_h` and `syn_v`) as the emergent LoRA adapter weights.
+- Implemented base inference loop for user interaction and draft generation.
+- Implemented self-reflection loop (Draft -> Reflect -> Final) in `vibe.py`.
+- Implemented affective valence tagging and precise datetime stamping for final responses.
+- Implemented tool parsing for bash commands within `<cmd>` tags to allow the model to use the computer.
+- Implemented PeriodicLoRA adapter attachment using peft for the causal language model.
